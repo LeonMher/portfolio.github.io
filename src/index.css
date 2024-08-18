@@ -5,15 +5,4 @@
 .container {
   display: flex;
   flex-direction: column;
-  background: url("./assets/profilePic.png");
-  background-size: contain;
-  background-position: start;
-  background-repeat: no-repeat;
-  height: 50vh;
-}
-
-.containerWide {
-  background-color: red;
-  width: 100%;
-  height: 100vh;
 }

@@ -1,5 +1,6 @@
 import Button from "@mui/material/Button";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
+import MyImage from "../assets/profilePic.png";
 
 export const Hero = () => {
   return (
@@ -15,7 +16,11 @@ export const Hero = () => {
           My Work.
         </Button>
       </div>
-      <div className="container"></div>
+      <img
+        className="w-full md:w-[800px]"
+        src={MyImage}
+        alt="my profile picture"
+      />
     </div>
   );
 };
